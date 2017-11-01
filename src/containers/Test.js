@@ -82,7 +82,7 @@ class Test extends Component {
                     type="text">
                   </input>
                 </div>
-                <button className="btn btn-primary margintop marginbelow" type="submit">Update Campus</button>
+                <button className="btn btn-primary margintop marginbelow" type="submit">Update</button>
                 <div className="center textRed marginbelow">{ this.state.errorAdd }</div>
               </form>
             </div>
