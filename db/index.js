@@ -7,9 +7,10 @@ const seed = () => {
   return sync()
     .then(() => {
       const promiseArr = [
-        Test.create({ name: 'AJ Frank' }),
-        Test.create({ name: 'Di Fan' }),
-        Test.create({ name: 'Vince Rios' })
+        Test.create({ name: 'Wasif' }),
+        Test.create({ name: 'Kazue' }),
+        Test.create({ name: 'Murray' }),
+        Test.create({ name: 'Vince' })
       ]
       return Promise.all(promiseArr);
     }
