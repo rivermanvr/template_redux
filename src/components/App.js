@@ -8,7 +8,7 @@ import Test from '../containers/Test';
 export default function AppContainer() {
   return (
     <div className="container-fluid">
-      <h3>Welcome to Grace-Shopper</h3>
+      <h3>Welcome to My Redux Template</h3>
       <Route render={ (router) => <Navbar router={ router } /> } />
       <Switch>
       <Route
